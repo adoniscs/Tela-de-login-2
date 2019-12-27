@@ -1,0 +1,212 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(login-background.jpg);
+    background-size: cover; */
+    /* font-family: "Comfortaa", sans-serif; */
+    /* background: #373d42; */
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-4deg, #ee9d52, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 8s ease-in-out infinite;
+} 
+.login{
+     /* width: 450px; 
+    height: 420px;
+   /* border: 2px solid #000;
+    border-radius: 80px 0px 80px 0px;
+    color: #fff;
+    background-color: rgba(0,0,5,0.8);
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+    background: white;
+    border: 2px solid #5a656e; */
+    font-size: 1.2rem;
+    font-family: "Lato", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 2rem;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+/* .usuario{
+    /* border-radius: 50%; 
+    position: absolute;
+    top: -12%;
+    left: 38%;
+} */
+h1{
+    margin: 0px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    color: #ff4d4d;
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login input{
+    width: 100%;
+    margin-bottom: 21px;
+}
+.login input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.login input[type="text"]:focus,input[type="password"]:focus{
+    border: none;
+    border-bottom: 1px solid #ff4d4d;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.login input[type="submit"]{
+    /* border: none;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    transition: 0.2s; */
+    display: block;
+    background-color: #ccc;
+    height: 45px;
+    
+    border: none;
+    outline: 0;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ff4d4d;
+    color: #000;
+    transition: 0.2s;
+    
+}
+.login a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+}
+.login a:hover{
+    transition: 0.2s;
+    color: #ff4d4d;
+}
+
+.cadastro{
+    font-size: 1.1rem;
+    font-family: "Lato", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem 2rem;
+    width: 480px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.cadastro p{
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.cadastro input{
+    width: 100%;
+    margin-bottom: 6px;
+}
+.cadastro input[type="text"],input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #000;
+    font-size: 16px;
+}
+.cadastro input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus{
+    border: none;
+    border-bottom: 1px solid #ff4d4d;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #000;
+    font-size: 16px;
+}
+.cadastro input[type="submit"]{
+    display: block;
+    border: none;
+    outline: none;
+    height: 45px;
+    color: #000;
+    background: #ccc;
+    border-radius: 10px;
+    transition: 0.2s;
+    
+}
+.cadastro input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ff4d4d;
+    color: white;
+    transition: 0.2s;
+}
+.cadastro a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+}
+.cadastro a:hover{
+    transition: 0.2s;
+    color: #ff4d4d;
+}
+ @keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
